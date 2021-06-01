@@ -1,0 +1,168 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.logo {
+    padding: 15px 20px;
+    margin: 0;
+    color: #ffeb00;
+    font-size: 50px;
+}
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+
+body h1 {
+    color: #000;
+    font-size: 40px;
+}
+body h2 {
+    color: #000;
+    font-size: 24px;
+}
+
+.logo {
+    padding: 7px 11px;
+    margin: 0;
+    color: #ffeb00;
+    font-size: 32px;
+}
+
+
+nav{
+	height: 150px;
+	line-height: 0px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 9999;
+}
+.menu-btn span{
+    margin-top: 9px;
+	position: absolute;
+	color: #fff;
+	left: 0px;
+}
+.menu li a{
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+	color: #fff;
+	padding: 9px 10px;
+    font-size: 15px;
+}
+.menu li {
+    display: block;
+    margin-bottom: 11px;
+    margin-top: 10px;
+    padding: 0px 65px;
+    padding-top: 0px;
+}
+#top-menu{
+	background-color: #000;
+	margin-right: 15px;
+    margin-left: 15px;
+    z-index: 9999;
+}
+.welcome h1 {
+    font-size: 20px;
+}
+
+
+
+.about {
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+.about h3 {
+    line-height: 22px;
+    font-size: 18px;
+}
+.about span {
+    line-height: 40px;
+}
+.img-3 {
+    margin-top: 0px;
+}
+.home img {
+    margin-top: 50px;
+}
+.home {
+    margin-top: 0px;
+}
+.motors img {
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 0 30px #000;
+    border: solid 0px;
+    border-radius: 10px;
+}
+.motors h4 {
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.videos {
+    margin-top: 20px;
+}
+/********gallery***********/
+
+.border-img-top-left {
+    border: solid 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+.border-img-top-right {
+    border: solid 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+.border-img-bottom-left {
+    border: solid 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+.border-img-bottom-right {
+    border: solid 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+.border-img-bottom {
+    border: solid 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+.end h3{
+	font-size: 20px;
+	text-align: center;
+}
+.border-ico {
+    margin-left: 10px;
+}
+.menu-end li a {
+    color: #ecff4e;
+    font-size: 15px;
+}
+.menu-end li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 0;
+    margin-top: 20px;
+}
+.end-end h3{
+	font-size: 18px;
+}
+
+
+
+
+}

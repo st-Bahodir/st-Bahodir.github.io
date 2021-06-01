@@ -1,0 +1,192 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+#top-menu{
+	 margin-right: 0px;
+	 padding-right: 0px;
+	 padding-left: 0;
+}
+.menu button{
+	padding: 8px 8px;
+	margin: 40px 10px;
+	border: solid 1px #c7c7c7;
+	background-color: rgba(0,0,0,.0);
+}
+.padding-0-0-1{
+	margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+/*********block3**********/
+.padding-0-0 {
+    padding-left: 30px;
+}
+.block3 h3 {
+    text-align: center;
+}
+/***********block4************/
+.block4 ul {
+    padding-left: 20px;
+}
+/***********index3***********/
+
+/*********block7***********/
+
+.b-7-h1-2 {
+    margin-top: 350px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: #000;
+}
+.b-7-h1-3 {
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.block7 button {
+    margin-top: 0px;
+}
+.padding-0-0 {
+    padding-left: 0px;
+}
+.border----1 {
+    border: solid 1px #c8c8c8;
+    width: 100%;
+    height: 230px;
+    padding: 10px 0;
+    border-left: 0;
+    border-right: 0;
+}
+.border----2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+/*********index************/
+
+nav{
+	height: 150px;
+	line-height: 10px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 9999;
+
+}
+.menu-btn span{
+    margin-top: 35px;
+	position: absolute;
+	color: #000;
+	right: 0px;
+    left: 0px;
+}
+#top-menu{
+	margin-top: 25px;
+	background-color: #fff;
+}
+.logo{
+	margin-top: 10px;
+    padding-top: 0px;
+}
+.menu li a{
+	display: block;
+	margin-top: 0px;
+	color: #000;
+}
+.menu li{
+	display: block;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+.menu button {
+    padding: 8px 10px;
+    margin: 10px 10px;
+    border: solid 1px #c7c7c7;
+    background-color: rgba(0,0,0,.0);
+}
+.menu select {
+    padding: 4px 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border: solid 1px #c7c7c7;
+    background-color: rgba(0,0,0,.0);
+}
+.b-1-row{
+	margin-right: 0px;
+}
+.padding-0-0-1 {
+    padding: 0 15px;
+}
+.b-2-c-md-3 {
+    padding-left: 25px;
+}
+.padding-0-0 {
+    padding-left: 0px;
+}
+.block3 input {
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: solid 1px #816263;
+}
+.block3 button {
+    margin-left: 55px;
+}	
+.block4 ul {
+    padding-left: 0px;
+}
+/**********index3************/
+
+.block7 {
+    background-image: url(../images/banner_img_xs.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.b-7-h1-1 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #806262;
+    transform: rotate(-16deg);
+    padding-left: 50px;
+}
+.b-7-h1-2 {
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 50px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,215 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+#top-menu {
+    margin-bottom: 0px;
+    padding-right: 0px;
+    margin-right: 28px;
+}
+.logo p {
+    padding-left: 28px;
+}
+.menu {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.header-container{
+	margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 700px;
+}
+.menu li {
+    display: inline-block;
+    padding: 20px 15px;
+    color: #fff;
+}
+.block2 img {
+    float: none;
+  	padding: 0 55px;
+}
+.block3 h5 {
+    padding: 0 0px;
+    line-height: 20px;
+}
+.b-4-c-md-img {
+    margin-top: 0px; 
+}
+.bottom-30 {
+    bottom: 0px; 
+}
+.block4 img{
+	margin-top: 30px;
+}
+.block4 h5 {
+    margin-bottom: 20px;
+}
+.b-8-border-ico {
+    margin-left: 79%;
+}
+.block10 h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 80px;
+}
+.b-10-container{
+	width: 720px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+body h1{
+	font-size: 27px;
+}
+.logo p {
+    padding-top: 0px;
+    padding-left: 10px;
+}
+nav{
+	height: 50px;
+	line-height: 0px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 9999;
+}
+.menu-btn span{
+    margin-top: 9px;
+	position: absolute;
+	color: #fff;
+	left: 0px;
+}
+.menu li a{
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+	color: #fff;
+	padding: 20px 10px;
+}
+.menu li {
+    display: block;
+    margin-bottom: 11px;
+    margin-top: 10px;
+    padding: 0px 65px;
+    padding-top: 0px;
+}
+#top-menu{
+	background-color: #000;
+	margin-right: 15px;
+    margin-left: 15px;
+}
+.header-container {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 330px;
+}
+.b-1-h4-1 {
+    color: #fff;
+    margin-top: 50px;
+}
+.b-1-btn-1 {
+    margin-bottom: 60px;
+}
+.block1 h1 {
+    font-size: 47px;
+}
+.block1 h5 {
+    padding-right: 0px;
+}
+.padding-right {
+    padding-right: 15px;
+}
+.header-banner-rgba {
+    height: 970px;
+}
+.header-banner {
+    height: 970px;
+}
+.block2 img {
+    float: none;
+    padding: 0 0px;
+}
+.block2 h1 {
+    padding-left: 0px;
+    font-weight: 550;
+    margin-top: 80px;
+}
+.block2 h4 {
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.block2 h5 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.block2 button {
+    margin-left: 0px;
+}
+.b-3-c-md-12-bg {
+    padding-bottom: 10px;
+}
+.block6 h1 {
+    margin-top: 15px;
+}
+.block6 button {
+    margin-top: 30px;
+}
+.b-8-border-ico {
+    margin-left: 77%;
+}
+.block8 h6 {
+    line-height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}

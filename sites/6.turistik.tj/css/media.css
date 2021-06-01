@@ -1,0 +1,182 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.menu li {
+    display: inline-block;
+    padding: 20px 15px;
+}
+#top-menu{
+margin-right: 0px;
+}
+.b-4-c-sm-6{
+	margin-top: 30px;
+}
+.b-5-c-sm-6{
+	margin-top: 50px;
+}
+/***block6***/
+.block6 {
+    height: 1040px;
+}
+/***block8***/
+.b-8-h6-2 {
+    font-size: 15px;
+    padding-left: 0px;
+    text-align: center;
+}
+.b-8-c-md-6 {
+    color: #fff;
+    padding-left: 10px;
+}
+.logo{
+	padding-top: 5px;
+}
+.b-10-c-sm-5{
+	padding-right: 0px;
+}
+/******index3******/
+.block11 h4 {
+    font-size: 20px;
+}
+/******index4************/
+/******block12*******/
+.b-12-h5 {
+    margin-top: 50px;
+}
+.b-12-h6-2{
+  padding-bottom: 30px;
+}
+.block12 input {
+    width: 90%;
+}
+.b-12-ico-search {
+ 	padding-right: 50px;
+}
+
+
+
+
+
+}
+/*************************/
+/*************************/
+/*************************/
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+/******index***********/
+nav{
+	/*height: 94px;*/
+	line-height: 94px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 9999;
+}
+.menu-btn span{
+margin-top: 15px;
+position: absolute;
+}
+#top-menu{
+background-color: #fff;
+}
+.logo{
+	padding-bottom: 0px;
+}
+nav{
+height: 60px;
+line-height: 40px;
+}
+.menu li a{
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+	color: #000;
+}
+.menu li{
+	display: block;
+	padding: 0 14px;
+}
+
+/****block1*****/
+.b-1-p2 {
+    float: none;
+}
+/***block2***/
+.block2 {
+    height: 200px;
+}
+/****block4*****/
+.b-4-c-sm-6 {
+    margin-top: 30px;
+}
+.b-4-c-sm-6-2 {
+    margin-top: 30px;
+}
+/****block5*****/
+.b-5-c-sm-6 {
+    margin-top: 0px;
+}
+.b-5-border-b {
+margin-top: 40px;
+}
+/****block6***/
+.b-6-h6-1 {
+    color: #fff;
+    padding: 10px 0px;
+    line-height: 20px;
+}
+.block6 {
+    height: 1800px;
+}
+/***block7***/
+.border-ico1 {
+    width: 65px;
+    height: 70px;
+}
+/***block8****/
+.b-8-h6-1 {
+    padding-right: 0px;
+}
+.block8 h5 {
+	font-size: 12px;
+}
+/******index4*******/
+/******block12******/
+.block12 h6 {
+    padding-bottom: 0px;
+}
+.b-12-btn-1 {
+    margin-bottom: 50px;
+}
+.b-12-ico-search {
+    padding-right: 35px;
+}
+.b-12-h5 {
+    margin-top: 20px;
+}
+.b-12-h6-2{
+    margin-bottom: 50px;
+}
+/*********index5********/
+/*******block14********/
+.block14 {
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
