@@ -73,7 +73,11 @@
   z-index: 1000;
   position: fixed;
   background-color: rgba(17,17,17,0);
+
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -ms-filter: blur(10px);
+  
   top: 0;
   right: 0;
   width: 100%;
@@ -127,6 +131,7 @@
   text-align: right;
   right: 10vw;
   bottom: 10vw;
+  top: 12%;
 }
 .overlayMenu ul {
   list-style: none;
