@@ -26,19 +26,37 @@
 }
 .block{
   margin-top: 20%;
-  text-align: left;
+  text-align: -moz-center;
+  -webkit-align-items: center;
+  -webkit-align-content: center;
+  -webkit-animation-duration: 1.5s;
   color: #fff;
-  transition: 1s;
+  -webkit-animation: fadeInRight 0.4s cubic-bezier(0.42, 0.83, 0.7, 1.5) forwards;
+  animation: fadeInRight 0.4s cubic-bezier(0.42, 0.83, 0.7, 1.5) forwards;
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+}
+.block h1{
+  -webkit-animation: fadeInRight 0.4s cubic-bezier(0.42, 0.83, 0.7, 1.5) forwards;
+  animation: fadeInRight 0.4s cubic-bezier(0.42, 0.83, 0.7, 1.5) forwards;
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+  transition: all 1.5s;
 }
 .block-0{
   margin-top: 50vh;
   background: rgba(17,17,17,.8);
   backdrop-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: #fff;
 }
 .block-1{
-  background-color: rgba(17,17,17,0.85);
   margin-top: 100px;
+  background: rgba(17,17,17,.8);
+  backdrop-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: #fff;
 }
 .navBurger {
