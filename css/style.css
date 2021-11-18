@@ -1,7 +1,7 @@
 /***********scrollbar**********/
 
 .body_body::-webkit-scrollbar{
-  width: 10px;
+  width: 3px;
 }
 .body_body::-webkit-scrollbar-track{
   background: #0b0812;
