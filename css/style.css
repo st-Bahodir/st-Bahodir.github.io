@@ -27,7 +27,7 @@
 .body_body{
   z-index: 100;
   overflow-y: scroll;
-  font-family: Bahnschrift;
+  /*font-family: Bahnschrift;*/
   height: 100%;
 }
 .block{
@@ -253,73 +253,6 @@
 }
 
 
-/************************************************************************************************/
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-
-
-
-  .logo img {
-    width: 35%;
-  }
-  .wrapper {
-    padding: 0px 100px;
-  }
-  .block{
-    margin-top: 40%;
-  }
-.block h1{
-  margin-top: 100px;
-}
-
-
-
-
-
-
-
-}
-
-/************************************************************************************************/
-/* Small Devices, Phones */
-@media only screen and (max-width : 375px){
-
-  .logo img {
-    width: 45%;
-  }
-  .wrapper {
-    padding: 0px 10px;
-  }
-  .wrapper p{
-    font-size: 15px;
-  }
-  .block h1{
-    margin-left: 30px;
-  }
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wrapper {
   position: absolute;
   top: 50%;
@@ -328,7 +261,7 @@
   margin-top: -87.5px;
   font-size: 30px;
   height: 175px;
-  padding: 0px 200px;
+  padding: 0 200px;
 }
 
 .wave {

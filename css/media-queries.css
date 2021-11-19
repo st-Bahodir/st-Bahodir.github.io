@@ -1,0 +1,55 @@
+/************************************************************************************************/
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+
+    .logo img {
+        width: 35%;
+    }
+    .wrapper {
+        padding: 0 100px;
+    }
+    .block{
+        margin-top: 50%;
+        transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+    }
+    .block h1{
+        margin-top: 100px;
+    }
+
+
+
+
+
+
+
+}
+
+/************************************************************************************************/
+/* Small Devices, Phones */
+@media only screen and (max-width : 375px){
+
+    .logo img {
+        width: 45%;
+    }
+    .wrapper {
+        padding: 0 10px;
+    }
+    .wrapper p{
+        font-size: 10px!important;
+    }
+    .block h1{
+        margin-left: 30px;
+    }
+
+
+
+
+
+
+
+
+}
