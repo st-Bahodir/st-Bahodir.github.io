@@ -1,0 +1,21 @@
+
+HTML
+
+<head>
+
+ <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+*********************************************
+<i class="******    fa fa-wrench    машенга ёзасан******"  aria-hidden="true"></i>
+
+<i class="fa fa-wrench"  aria-hidden="true"></i>
+
+*********************************************
+CSS
+
+
+.fa-wrench{
+	font-size: 100px;
+
+
+}

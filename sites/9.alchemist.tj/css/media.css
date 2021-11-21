@@ -1,0 +1,194 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+#top-menu{
+	margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.logo {
+    padding-top: 10px;
+}
+.block2-bg {
+    margin-top: 20px;
+}
+.pos-absolute {
+    position: absolute;
+    padding-top: 427px;
+    padding-left: 519px;;
+}
+.block4-div-png {
+    position: absolute;
+    padding-top: 84px;
+    padding-left: 2px;
+}
+.block6-border {
+    height: 453px;
+    width: 329px;
+    margin-top: 30px;
+}
+.block7 h2 {
+    padding: 20px 99px;
+    margin-top: 0;
+    font-size: 20px;
+}
+/**********index3************/
+
+.padding-right {
+    padding-right: 15px;
+}
+.padding-left {
+    padding-left: 15px;
+}
+.block13 input {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+nav{
+	height: 50px;
+	line-height: 0px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 9999;
+}
+.menu-btn span{
+    margin-top: 17px;
+	position: absolute;
+	color: #000;
+}
+.menu li a{
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+	color: #fff;
+	padding: 20px 10px;
+}
+.menu li{
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	padding: 0px 65px;
+    padding-top: 0px;
+}
+#top-menu{
+	margin-top: 20px;
+	background-color: #afcbd8;
+}
+.banner {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    background-image: url(../images/banner-1.jpg);
+    background-size: cover;
+    height: 318px;
+}
+.block1 h1 {
+    color: #fff;
+    font-size: 31px;
+    margin-bottom: 0;
+}
+.block1 h1 span {
+    color: #000!important;
+    font-weight: 550;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.block1 button {
+    width: 271px;
+    height: 46px;
+    font-size: 19px;
+}
+.block3 h1 {
+    font-size: 32px;
+}
+.block3 ul li {
+    font-size: 14px;
+    line-height: 25px;
+}
+.pos-absolute {
+    position: absolute;
+    padding-top: 228px;
+    padding-left: 282px;
+}
+.block5 h1 {
+    font-size: 40px;
+    color: #34467b;
+    line-height: 50px;
+}
+.block5 h2 {
+    line-height: 30px;
+    font-size: 19px;
+}
+.block5 h3 {
+    font-size: 20px;
+}
+.block6 h1{
+	font-size: 32px;
+}
+.b-6-c-xs-12{
+	padding-left: 0px;
+}
+.block7 h2 {
+    padding: 6px 21px;
+    margin-top: 0;
+    font-size: 11px;
+}
+/********index2**********/
+
+.b-11-h5-1 {
+    text-align: center;
+    padding: 10px 0px;
+    line-height: 20px;
+}
+/********index3*************/
+
+.block12 h5 {
+    padding: 0 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+}

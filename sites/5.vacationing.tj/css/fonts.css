@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "Balsamiq Sans";
+	src: url("../fonts/Balsamiq Sans/BalsamiqSans-Regular.eot");
+	src: url("../fonts/Balsamiq Sans/BalsamiqSans-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Balsamiq Sans/BalsamiqSans-Regular.woff") format("woff"),
+			 url("../fonts/Balsamiq Sans/BalsamiqSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
