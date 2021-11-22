@@ -1,6 +1,15 @@
+
+html{
+  scroll-behavior: smooth;
+}
 *{
   font-family: 'JetBrains Mono', monospace;
 }
+
+
+
+
+
 /***********scrollbar**********/
 
 .body_body::-webkit-scrollbar{
@@ -160,9 +169,8 @@ padding: 15px;
   margin-bottom: 26px;
 }
 .laravel-img{
-  width: 71%;
-  border-radius: 50%;
-  margin-bottom: 30px;
+  width: 92%;
+  margin-bottom: 22px;
 }
 .git-img{
   margin-bottom: 12px;
@@ -177,7 +185,7 @@ padding: 15px;
 /*******************************************block-3**********************************************/
 .block-3{
   margin-top: 70px;
-  margin-bottom: 300px;
+  margin-bottom: 70px;
 }
 .block-3 h1{
   text-align: center;
@@ -238,6 +246,111 @@ padding: 15px;
 .portfolio-img-10{
   background-image: url("../sites/10.kuber.tj/mockup/1.jpg");
 }
+
+
+/*******************************block-4************************************/
+
+
+.block-4 h4{
+  margin-top: 20px;
+}
+.block-4 h5{
+  margin-top: 20px;
+}
+.block-4 a{
+  color: #7b78a3;
+  text-decoration: none;
+}
+.block-4 img{
+width: 65%;
+
+}
+.border-ico{
+border: solid 4px;
+width: 60px;
+height: 60px;
+border-radius: 100px;
+padding-top: 9px;
+display: inline-block;
+/*float: center;*/
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 15px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+/*********header**********/
+
+.menu-link:before{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #e34cff;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transform: scaleX(0);
+  transition: transform 0.25s;
+}
+.menu-link:hover{
+  color: #e34cff;
+
+}
+.menu-link:hover:before{
+  transform: scaleX(1);
+  transition: transform 0.25s;
+}
+.menu-link{
+  position: relative;
+}
+.phone:hover{
+  border-color: #2fa8cc;
+  box-shadow: 0 0 18px #2fa8cc;
+}
+.envelope:hover{
+  border-color: #f6b863;
+  box-shadow: 0 0 18px #f6b863;
+}
+.instagram:hover{
+  border-color: #a21cad;
+  box-shadow: 0 0 18px #a21cad;
+}
+.at:hover{
+  border-color: #f2f2f2;
+  box-shadow: 0 0 18px #f2f2f2;
+}
+.github:hover{
+  border-color: #f44336;
+  box-shadow: 0 0 18px #f44336;
+}
+
+
+.menu-end{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-end li {
+  margin-top: 75px;
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 18px;
+}
+.menu-end li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: 0.7s;
+}
+.menu-end li a:hover{
+  color: #e34cff ;
+  transition: 0.7s;
+}
+
+
+
 /*-----------------*/
 /***** Apollo *****/
 /*-----------------*/
@@ -421,7 +534,7 @@ figure.effect-apollo:hover p {
 .overlay {
   z-index: 1000;
   position: fixed;
-  background-color: rgba(17,17,17,0);
+  background-color: rgba(17,17,17,.5);
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);

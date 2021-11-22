@@ -98,3 +98,6 @@ for (var i = 0; i < textCont.length; i++) {
         }, 300 * i);
     }(i));
 }
+
+
+
