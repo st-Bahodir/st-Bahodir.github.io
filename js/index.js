@@ -101,3 +101,26 @@ for (var i = 0; i < textCont.length; i++) {
 
 
 
+/************preloader********/
+
+
+function holder() {
+    $(() => {
+
+        setInterval(() => {
+
+            let p = $('.holder');
+
+            p.css('opacity', 0);
+
+            setInterval(
+                () => p.remove(),
+                parseInt(p.css('--duration')) * 1000
+            );
+
+        }, 1000);
+
+    });
+}
+
+holder();
