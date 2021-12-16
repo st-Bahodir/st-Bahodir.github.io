@@ -4,14 +4,9 @@ html{
 }
 *{
   font-family: 'JetBrains Mono', monospace;
+  scroll-behavior: smooth;
 }
 /********preloader*********/
-
-
-
-
-
-
 .holder {
 
   left: 0px;
@@ -20,7 +15,7 @@ html{
   right: 0px;
   width: 100%;
   height: 100%;
-  background-color: #2D2F48;
+  background-color: #161624;
   z-index: 99999;
 
 
@@ -29,7 +24,7 @@ html{
   --thickness:5px;
   --duration:1s;
   position: fixed;
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,15 +368,11 @@ html{
 }
 .block{
   margin-top: 20%;
-
-}
-.block h1{
+  margin-bottom: 30%;
 
 }
 /***************************block-0*****************************/
-.block-0{
-  margin-top: 27%;
-}
+
 .block-0 h2{
   margin-top: 100px;
   margin-bottom: 50px;
@@ -401,7 +392,7 @@ html{
 }
 .block-1 h1{
   text-align: center;
-  margin: 50px 0;
+  margin: 70px 0;
 }
 .block-1 h5{
 padding: 15px;
@@ -537,45 +528,48 @@ padding: 15px;
   transition: 5s;
 }
 .portfolio-img-1{
-  background-image: url("../sites/1.activbox.tj/mockup/1.jpg");
+  background-image: url("../sites/1.jpg");
 }
 .portfolio-img-2{
-  background-image: url("../sites/2.Leader.tj/mockup/1.jpg");
+  background-image: url("../sites/2.jpg");
 }
 .portfolio-img-3{
-  background-image: url("../sites/3.apps.tj/mockup/1.jpg");
+  background-image: url("../sites/3.jpg");
 }
 .portfolio-img-4{
-  background-image: url("../sites/4.voyage.tj/mockup/1.jpg");
+  background-image: url("../sites/4.jpg");
 }
 .portfolio-img-5{
-  background-image: url("../sites/5.vacationing.tj/mockup/1.jpg");
+  background-image: url("../sites/5.jpg");
 }
 .portfolio-img-6{
-  background-image: url("../sites/6.turistik.tj/mockup/1.jpg");
+  background-image: url("../sites/6.jpg");
 }
 .portfolio-img-7{
-  background-image: url("../sites/7.bike.tj/mockup/1.png");
+  background-image: url("../sites/7.jpg");
 }
 .portfolio-img-8{
-  background-image: url("../sites/8.e-shop.tj/mockup/1.png");
+  background-image: url("../sites/8.jpg");
 }
 .portfolio-img-9{
-  background-image: url("../sites/9.alchemist.tj/mockup/1.jpg");
+  background-image: url("../sites/9.jpg");
 }
 .portfolio-img-10{
-  background-image: url("../sites/10.kuber.tj/mockup/1.jpg");
+  background-image: url("../sites/10.jpg");
 }
 
 
 /*******************************block-4************************************/
 
-
+.block-4{
+  margin-bottom: 50px;
+}
 .block-4 h4{
   margin-top: 20px;
 }
 .block-4 h5{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .block-4 a{
   color: #7b78a3;

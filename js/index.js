@@ -104,6 +104,12 @@ for (var i = 0; i < textCont.length; i++) {
 /************preloader********/
 
 
+/* Preloader */
+// $(window).load(function() {
+//     $(".loader").delay(10).fadeOut().remove();
+//
+// });
+
 function holder() {
     $(() => {
 
@@ -118,7 +124,7 @@ function holder() {
                 parseInt(p.css('--duration')) * 1000
             );
 
-        }, 1000);
+        }, 3000);
 
     });
 }
